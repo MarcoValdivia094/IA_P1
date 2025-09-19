@@ -44,4 +44,4 @@ personajes = [
 # Iniciamos el combate
 print("=== COMBATE INICIADO ===\n")
 for personaje in personajes:
-    personaje.atacar()  # Cada clase ejecuta su propia versión del método atacar(), sin tener definido nada, es decir, todos los objetos deben diseñar su propia versión sin exepción.
+    personaje.atacar()  # Cada clase ejecuta su propia versión del método atacar(), sin tener definido nada, es decir, todas las clases hijas deben diseñar su propia versión sin exepción.
