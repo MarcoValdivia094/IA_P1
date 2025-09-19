@@ -11,6 +11,7 @@ class Personaje:
     # Simulador de ataque: acepta múltiples enemigos con *args
     def atacar(self, *enemigos):
         for enemigo in enemigos:
+            enemigo.rugir()
             print(f"{self.nombre} ataca a {enemigo.nombre} (nivel {enemigo.nivel})...")
             if self.nivel >= enemigo.nivel:
                 print(f"{self.nombre} ha derrotado a {enemigo.nombre}!")
@@ -30,7 +31,7 @@ class Jugador(Personaje):
         super().__init__(nombre, nivel)
         self.victorias = 0  # Atributo exclusivo del jugador
 
-    # Contamos las victorias del protagonista
+    # Contamos las victorias del protagonista. Esta es caracteristica única del jugador, los enemigos no la tienen.
     def registrar_victoria(self):
         self.victorias += 1
         print(f"{self.nombre} lleva {self.victorias} victoria(s).")
@@ -41,6 +42,7 @@ class Enemigo(Personaje):
         super().__init__(nombre, nivel)
         self.tipo = tipo  # Tipo de enemigo (bestia, jefe, etc.)
 
+    #Aquí solamente damos enfasís a la caracteristica propia de los enemigos, es decir su "Tipo", el cual no tiene el jugador.
     def rugir(self):
         print(f"{self.nombre} ({self.tipo}) ruge ferozmente!")
 
@@ -69,6 +71,7 @@ Pero usando *args, lo hacemos en una sola llamada.
 print("\n¡Enfrentamiento final!")
 dragon.rugir()
 protagonista.atacar(dragon)
+
 
 
 
