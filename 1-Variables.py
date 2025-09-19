@@ -7,3 +7,10 @@ x = 2 #Declaramos la variable 1
 y = 2 #Declaramos la variable 2
 z = x + y #Sumamos las variables previamente creadas y lo almacenamos en la variable z
 print(z) #Imprimimos el resultado de la suma
+
+"""
+Este es un comentario
+multilínea de Python.
+Con él, podemos ir
+escribiendo múltiples líneas.
+"""
