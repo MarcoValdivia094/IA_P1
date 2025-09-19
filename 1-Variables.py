@@ -1,3 +1,5 @@
+#Esto es un comentario, esta línea del código no se ejecutará, solo sirve como mensaje para el que lea el código
+
 Hola = "Hola mundo" #Almacenamos el string en la variable
 print(Hola) #Imprimimos la variable con el valor contenido
 
