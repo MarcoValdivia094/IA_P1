@@ -68,10 +68,22 @@
   print(operacion)
 
 #Cálculos con paréntesis, con os parémntesis podrás establecer prioridades diferentes en las operaciones de cálculo, al igual que haces con las matemáticas corrientes.
+  operacion = (10 + 6) * 2 #En este caso, la prioridad es la suma (10 + 6). Entonces, la operación que se está realizando es 10 + 6 = 16 * 2 = 32
+  print(operacion)
 
-El orden de preferencia de las operaciones matemáticas que estamos utilizando en este capítulo, es el siguiente (ordenado de mayor a menor):
-
+"""
+El orden de preferencia de las operaciones matemáticas que se usan (al menos hasta este archivo), es el siguiente (ordenado de mayor a menor):
 Paréntesis
 Exponentes
 Multiplicación y división
 Suma y resta
+"""
+#Guiones bajos para números grandes
+  #En Python podemos representar números grandes de una forma más legible, con un guion bajo(_).
+  numero_largo = 56_404_357_843_987 #Esto es lo mismo que: 56404357843987 solo que de forma más "legible"
+  print(numero_largo)
+
+  #También podemos utilizar estos guiones con números que tienen decimales:
+  numero_largo_con_decimal = 56_404_357_843_987.78 #Lo mismo que 56404357843987.78, e incluso podemos agregar más (_) después del punto como 56_404_357_843_987.7_234_543
+  print(numero_largo_con_decimal)
+
