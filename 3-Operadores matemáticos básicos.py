@@ -63,4 +63,15 @@
   print(division_entera)
 
 #Potencia (**)
+  # Cálculo de 2 elevado a 10
+  operacion = 2 ** 10
+  print(operacion)
 
+#Cálculos con paréntesis, con os parémntesis podrás establecer prioridades diferentes en las operaciones de cálculo, al igual que haces con las matemáticas corrientes.
+
+El orden de preferencia de las operaciones matemáticas que estamos utilizando en este capítulo, es el siguiente (ordenado de mayor a menor):
+
+Paréntesis
+Exponentes
+Multiplicación y división
+Suma y resta
