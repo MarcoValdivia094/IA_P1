@@ -1,7 +1,3 @@
-""" ===============================
-    PROYECTO: POLIMORFISMO EN POO
-==============================="""
-
 """Este programa simula un grupo de personajes con diferentes clases (Mago, Guerrero, Arquero),
 todos heredan de una clase base llamada Personaje. Cada uno tiene su propia forma de atacar,
 demostrando el concepto de polimorfismo: una misma acción (atacar) se comporta diferente
