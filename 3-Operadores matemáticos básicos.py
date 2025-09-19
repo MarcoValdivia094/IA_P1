@@ -1,0 +1,65 @@
+#Suma directa
+  print(20 + 50)
+
+#Suma guardada en una variable
+  # Calcula y guarda el resultado
+  operacion = 20 + 50  
+  # Imprime el resultado
+  print(operacion)
+
+#Resta guardada en una variable (también se puede hacer directa)
+  # Calcula y guarda el resultado
+  operacion = 10 - 4
+  # Imprime el resultado
+  print(operacion)
+
+#Multiplicación
+  # Calcula y guarda el resultado
+  operacion = 10 * 4
+  # Imprime el resultado
+  print(operacion)
+
+#División 
+  # Calcula y guarda el resultado
+  operacion = 10 / 3
+  # Imprime el resultado
+  print(operacion)
+
+#Ejemplo de una operación mixta (que tiene más de una operación diferente)
+  # Calcula y guarda el resultado
+  operacion = 100 * 98 + 65 * 2 - 10 / 5
+  # Imprime el resultado
+  print(operacion)
+
+#Operación con 2 variables, aunque pueden sea con más de 2.
+  # Declaración de dos variables numéricas
+  numero1 = 100
+  numero2 = 500
+  # Calcula el resultado de la suma de los dos valores
+  resultado = numero1 + numero2
+  # Imprime el resultado
+  print(resultado)
+
+#Módulo %, este realiza una división entre dos números, y en lugar de devolvernos el resultado como hace el operador de división (/), nos devuelve el resto.
+  # Declaramos dos variables numéricas
+  numero1 = 10 # Dividendo
+  numero2 = 3 # Divisor
+  # Calculamos el cociente y el resto de la división
+  cociente = numero1 / numero2 # División normal
+  resto = numero1 % numero2 # División módulo
+  # Imprimimos el cociente y el resto
+  print("Cociente:", cociente)
+  print("Resto:", resto)
+
+#División entera (//), este sirve para realizar una división, devolviendo siempre un resultado de tipo int.
+  # Declaramos dos variables numéricas
+  numero1 = 10 # Dividendo
+  numero2 = 3 # Divisor
+  # Calculamos la división
+  division = numero1 / numero2
+  division_entera = numero1 / numero2
+  # Imprimimos los resultados
+  print(division)
+  print(division_entera)
+
+
