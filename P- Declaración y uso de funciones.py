@@ -1,17 +1,17 @@
 # Declaración de funciones
-  # Se usa la palabra clave 'def' seguida del nombre y paréntesis
-  def saludar():
-      print("Hola, Shadow")
+# Se usa la palabra clave 'def' seguida del nombre y paréntesis
+def saludar():
+  print("Hola, Shadow")
 
 # Ejemplo práctico de función
 saludar()  # Llama a la función y ejecuta su contenido
 
 # Parámetros de las funciones
-  # Son variables que se definen dentro de los paréntesis al declarar la función
+# Son variables que se definen dentro de los paréntesis al declarar la función
 
 # Ejemplo de uso de un parámetro en una función
 def saludar_persona(nombre):
-    print("Hola,", nombre)
+  print("Hola,", nombre)
 
 saludar_persona("Marco")  # Pasa un argumento a la función
 
@@ -28,7 +28,7 @@ presentar("Marco", 23)
 
 # El orden de los argumentos
   # Los argumentos se asignan en el orden en que aparecen
-  presentar("Ana", 30)  # nombre = "Ana", edad = 30
+presentar("Ana", 30)  # nombre = "Ana", edad = 30
 
 # Diferencia entre parámetro y argumento
 """
@@ -38,7 +38,7 @@ presentar("Marco", 23)
 
 # Argumentos de clave (keyword arguments)
   # Se pueden pasar usando nombre=valor
-  presentar(edad=25, nombre="Luis")  # El orden ya no importa
+presentar(edad=25, nombre="Luis")  # El orden ya no importa
 
 # Devolver valores con las funciones
   # Se usa la palabra clave 'return'
